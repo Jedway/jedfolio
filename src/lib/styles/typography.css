@@ -1,0 +1,22 @@
+/* Typography styles with depth effects */
+.heading-depth {
+  text-shadow: 
+    2px 2px 0 var(--gruvbox-bg1),
+    4px 4px 0 var(--gruvbox-bg2);
+  letter-spacing: 0.5px;
+}
+
+.button-depth {
+  box-shadow: 
+    3px 3px 0 var(--gruvbox-bg2),
+    6px 6px 0 var(--gruvbox-bg3);
+  transform: translate(-1px, -1px);
+  transition: all 0.2s ease;
+}
+
+.button-depth:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 
+    1px 1px 0 var(--gruvbox-bg2),
+    2px 2px 0 var(--gruvbox-bg3);
+}

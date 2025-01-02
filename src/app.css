@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&display=swap');
+@import './lib/styles/typography.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Geist Mono', monospace;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #282828; /* gruvbox dark bg0 */
+  color: #ebdbb2; /* gruvbox dark fg */
+
+  /* CSS Variables for Gruvbox colors */
+  --gruvbox-bg0: #282828;
+  --gruvbox-bg1: #3c3836;
+  --gruvbox-bg2: #504945;
+  --gruvbox-bg3: #665c54;
+}
+
+/* Adjust bottom padding for mobile navigation */
+@media (max-width: 768px) {
+  main {
+    padding-bottom: 6rem;
+  }
+}

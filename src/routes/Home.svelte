@@ -15,7 +15,7 @@
       <a href="/cv.pdf" download class="bg-gruvbox-orange text-gruvbox-bg0 px-6 py-3 rounded-lg button-depth">
         Download CV
       </a>
-      <a href="/Contact" class="border border-gruvbox-fg4 text-gruvbox-fg4 px-6 py-3 rounded-lg button-depth hover:bg-gruvbox-fg4 hover:text-gruvbox-bg0">
+      <a href="/contact" class="border border-gruvbox-fg4 text-gruvbox-fg4 px-6 py-3 rounded-lg button-depth hover:bg-gruvbox-fg4 hover:text-gruvbox-bg0">
         Get in Touch
       </a>
     </div>
